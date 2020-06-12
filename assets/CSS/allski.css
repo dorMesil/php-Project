@@ -1,0 +1,88 @@
+@font-face {
+  font-family: mons;
+  src: url("../Includes/fonts/Montserrat-Regular.ttf");
+  font-family: mons-bold;
+  src: url("../Includes/fonts/Montserrat-Bold.ttf");
+}
+header {
+  height: 10vh;
+  background: rgba(221, 223, 224, 0.5);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav div {
+  width: 125px;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  height: 10vh;
+  transition: 0.5s;
+  justify-content: center;
+}
+nav a {
+  padding: 5px;
+  box-shadow: 2px;
+  align-self: center;
+  text-align: center;
+  font-family: mons-bold;
+}
+.last-a-nav {
+  border: none;
+}
+
+nav div {
+  border: none;
+}
+
+nav div:hover,
+.link-landing:hover,
+aside div:hover {
+  background-color: #6e98f1;
+}
+
+a {
+  color: #161515;
+  text-decoration: none;
+}
+aside div {
+  position: fixed;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(221, 223, 224, 0.75);
+  margin: auto;
+  width: 25vw;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+aside div a {
+  align-self: center;
+  transition: 0.25s;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: mons-bold;
+  font-size: 2rem;
+}
+aside div a:hover {
+  color: white;
+}
+body {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  font-family: mons;
+}

@@ -1,0 +1,63 @@
+
+     
+      
+     
+      
+    
+      .form {
+
+        background-color: rgba(110, 152, 241, 0.5);
+        width: 60%;
+        margin: auto;
+    }
+      
+      input, select {
+      padding: 5px;
+      margin-bottom: 1vh;
+      background: rgba(44, 66, 112, 0.5);
+      border: none;
+      
+      }
+      input::placeholder {
+      color: rgb(0, 0, 0);
+      }
+      
+      option {
+      background:  rgba(110, 152, 241, 0.5); 
+      border: none;
+      }
+      .checkbox input {
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+      }
+      .checkbox a {
+      color: #f8f8f8;
+      }
+      .checkbox a:hover {
+      color: #85bdde;
+      }
+      .btn-item, button {
+      padding: 10px 5px;
+      margin-top: 20px;
+      border-radius: 5px; 
+      border: none;
+      background:   rgb(32, 83, 194); 
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 400;
+      color: #fff;
+      }
+      .btn-item {
+      display: inline-block;
+      margin: 20px 5px 0;
+      }
+      button {
+      width: 100%;
+      }
+      button:hover, .btn-item:hover {
+      background: #85bdde;
+      }
+     
+      
+      
+    

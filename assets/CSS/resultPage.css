@@ -1,0 +1,36 @@
+@font-face {
+  font-family: mons;
+  src: url("../Includes/fonts/Montserrat-Regular.ttf");
+  font-family: mons-bold;
+  src: url("../Includes/fonts/Montserrat-Bold.ttf");
+}
+.resort_list {
+  background: rgba(110, 152, 241, 0.5);
+}
+.resort-item {
+  background: rgba(110, 152, 241, 0.75);
+}
+td {
+  color: white;
+}
+
+.resort-item a {
+  color: white;
+  font-family: mons-bold;
+}
+
+.filter {
+  width: 100%;
+  border: none;
+  background: rgba(110, 152, 241, 0.75);
+  border-radius: 10px;
+}
+.ski_resort {
+  margin-top: 20px;
+  color: white;
+}
+
+.ski_resort p {
+  font-family: mons-bold;
+  font-size: 2rem;
+}

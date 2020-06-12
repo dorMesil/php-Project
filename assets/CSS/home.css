@@ -1,0 +1,160 @@
+@font-face {
+  font-family: mons;
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: mons-bold;
+  src: url("..fonts/Montserrat-Bold.ttf");
+}
+#logo {
+  width: 100%;
+  height: 200px;
+}
+header {
+  width: 90%;
+  height: 230px;
+  margin-left: 5%;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  padding: 5px;
+  box-shadow: 2px;
+  align-self: center;
+  text-align: center;
+  font-family: mons-bold;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgba(221, 223, 224, 0.5);
+  height: 30px;
+}
+
+.resort_list {
+  background-color: rgb(240, 243, 245);
+}
+
+.resort-image {
+  width: 100%;
+  height: auto;
+}
+.resort-item {
+  padding: 2%;
+  border: solid 2px rgb(153, 179, 255);
+  margin-top: 10px;
+}
+td .img {
+  width: 30px;
+  margin-right: 3px;
+}
+.btn {
+  margin: 10px 0px 10px 0px;
+  padding: 3px 5px 3px 5px;
+}
+
+.content {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+aside {
+  text-align: center;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ski_resort {
+  border-radius: 4px;
+  background-color: rgb(54, 104, 218);
+}
+.ski_resort p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+}
+.col-md-5 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.resort_stats table {
+  margin: 0 auto;
+  width: 100%;
+}
+.resort_stats {
+  padding-left: 5px;
+}
+@media (max-width: 667px) {
+  .btn-warning {
+    width: 100%;
+  }
+}
+.info_table .blue_line {
+  background-color: #235485;
+  color: #ffffff;
+  padding: 0px 3px 0px 3px;
+}
+.info_table .red_line {
+  background-color: #e82a2a;
+  color: #ffffff;
+  padding: 0px 3px 0px 3px;
+}
+.info_table .black_line {
+  background-color: #000;
+  color: #ffffff;
+  padding: 0px 3px 0px 3px;
+}
+.left {
+  text-align: left;
+}
+.resort-item div {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.filter {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  border: black solid 2px;
+
+  padding: 2% 0px 2% 0px;
+}
+.grid_container {
+  display: grid;
+  /*-webkit-grid-columns: 30% 30% 40%;*/
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.grid_itema {
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: center;
+}
+.grid_itema * {
+  width: 40%;
+}
+.grid_itemb {
+  grid-row-start: 2;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+}
+.grid_itemc {
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: center;
+}
+.checkBox {
+  display: inline-block;
+}
